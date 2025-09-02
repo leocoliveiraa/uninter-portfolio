@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo Oliveira - Desenvolvedor Full-Stack</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header com navegação fixa -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-brand">
+          <h2>Leonardo Oliveira</h2>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+          <li><a href="#formacao" class="nav-link">Formação</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Seção principal de apresentação -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 id="typing-text">
+              Olá, eu sou <span class="highlight">Leonardo Oliveira</span>
+            </h1>
+            <h2>Desenvolvedor Full-Stack</h2>
+            <p>
+              Especializado em construir aplicações web modernas com
+              <strong>TypeScript</strong>, <strong>React</strong> e
+              <strong>Node.js</strong>. Atualmente expandindo minha expertise em
+              <strong>C#</strong> e <strong>.NET</strong>.
+            </p>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+              <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-container">
+              <img
+                src="assets/foto.jpeg"
+                alt="Leonardo Oliveira"
+                class="profile-image"
+              />
+              <div class="profile-ring"></div>
+              <div class="profile-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-content">
+          <p class="about-text">
+            Me chamo Leonardo, tenho 20 anos e sou um desenvolvedor Full-Stack!
+            Atualmente estou cursando Análise e Desenvolvimento de Sistemas na
+            UNINTER.
+          </p>
+          <p class="about-text">
+            Sou apaixonado por tecnologia desde criança, e meu primeiro contato
+            com programação foi com 13 anos, utilizando Java para criar plugins
+            de Minecraft. Com o passar dos anos, me aprofundei no mundo da
+            programação e percebi que era isso que queria para minha vida.
+          </p>
+
+          <!-- Grid de tecnologias que domino -->
+          <h3 class="tech-title">Stack Tecnológico</h3>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <i class="fab fa-html5"></i>
+              <div>HTML5</div>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-css3-alt"></i>
+              <div>CSS3</div>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-js-square"></i>
+              <div>JavaScript</div>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-js-square"></i>
+              <div>TypeScript</div>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-react"></i>
+              <div>React</div>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-node-js"></i>
+              <div>Node.js</div>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-code"></i>
+              <div>C#</div>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-database"></i>
+              <div>MongoDB</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao" class="section">
+      <div class="container">
+        <h2 class="section-title">Formação</h2>
+        <div class="education-content">
+          <!-- Informações da faculdade -->
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-details">
+              <h3>UNINTER</h3>
+              <h4>Análise e Desenvolvimento de Sistemas</h4>
+              <p class="education-period">2025 - 2027</p>
+              <p class="education-description">
+                Centro Universitário Internacional - Tecnologia em Análise e
+                Desenvolvimento de Sistemas com 2 anos para formação. Focado em
+                desenvolvimento fullstack, metodologias ágeis e arquitetura de
+                sistemas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Idiomas que falo -->
+          <div class="languages">
+            <h3>Idiomas</h3>
+            <div class="language-item">
+              <span class="language-name">Português</span>
+              <span class="language-level">Nativo</span>
+            </div>
+            <div class="language-item">
+              <span class="language-name">Inglês</span>
+              <span class="language-level">Avançado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Portfólio</h2>
+        <p class="section-subtitle">Alguns dos projetos que desenvolvi</p>
+
+        <!-- Grid com meus projetos -->
+        <div class="portfolio-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-chart-line"></i>
+              <h3>VaultMapz</h3>
+              <span class="project-year">2025</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Sistema de Gestão Financeira Fullstack. Gerencie suas finanças
+                de forma prática — acompanhe receitas, despesas e saldo em um
+                dashboard interativo.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Styled Components</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/leocoliveiraa"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a
+                  href="https://vaultmapz.vercel.app"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-sticky-note"></i>
+              <h3>Notedz</h3>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Ferramenta de escrita versátil para criação de diversos tipos de
+                conteúdo (histórias, receitas, anotações pessoais). Uma
+                aplicação para escrever tudo!
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Styled Components</span>
+                <span class="tech-tag">Quill</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/leocoliveiraa"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a
+                  href="https://notedz.vercel.app"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-target"></i>
+              <h3>Commitz</h3>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Sistema de Tracking com Métricas. Uma aplicação para você salvar
+                suas metas anuais, controlá-las e acompanhar o progresso com
+                algoritmos para análise de performance.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TailwindCSS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/leocoliveiraa"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a
+                  href="https://commitzz.vercel.app"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <p class="section-subtitle">Vamos trabalhar juntos</p>
+
+        <!-- Formulário de contato visual -->
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary">
+                Enviar Mensagem
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Minhas informações de contato -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            leo11.contato@gmail.com
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            +55 53 9 9988-1531
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            Pelotas - RS, Brasil
+          </div>
+        </div>
+
+        <!-- Links das minhas redes sociais -->
+        <div class="social-links">
+          <a href="https://github.com/leocoliveiraa" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/leocoliveira/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://leocoliveira.vercel.app" target="_blank">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Leonardo Oliveira. Todos os direitos reservados.</p>
+        <p>Desenvolvido com HTML5, CSS3 e JavaScript</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
